@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from typing import Tuple
 
 INF = 8
-
 def plot(
         signal, 
         title=None, 
@@ -56,4 +55,4 @@ def main():
     plot(even_signal, title='Even Signal(x[n])', saveTo=f'{img_root_path}/x_even[n].png')
     plt.show()
 
-main()
+main()  
